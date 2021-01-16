@@ -75,5 +75,6 @@ echo "OJO:>> "
 ls -las /srv/dotserver/
 
 set_tomcat_dir
-
-
+echo "OJO:>> "
+ls -las /srv/dotserver/
+cat /srv/TOMCAT_VERSION
