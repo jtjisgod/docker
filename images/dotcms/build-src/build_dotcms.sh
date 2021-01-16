@@ -71,6 +71,8 @@ case "${build_source}" in
 esac
 
 mv ${build_target_dir}/* /srv/
+echo "OJO:>> "
+ls -las /srv/dotserver/
 
 set_tomcat_dir
 
